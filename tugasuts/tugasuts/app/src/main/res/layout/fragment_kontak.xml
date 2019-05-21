@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/graylight"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@drawable/backgroundprofile"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginTop="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_contacts"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kontak Saya"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="21sp"/>
+    </LinearLayout>
+
+    <android.support.design.circularreveal.CircularRevealRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            >
+            <Button
+                android:layout_marginLeft="25dp"
+                android:id="@+id/bt_intagram"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/instagram" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Instagram "
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/startblue"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="125dp"
+            >
+            <Button
+                android:layout_marginLeft="25dp"
+                android:id="@+id/bt_facebook"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/facebook" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facebook"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/startblue"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="225dp"
+            >
+            <Button
+                android:layout_marginLeft="25dp"
+                android:id="@+id/bt_steam"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/share_steam_logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Steam"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/startblue"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+    </android.support.design.circularreveal.CircularRevealRelativeLayout>
+
+
+
+
+
+
+
+
+
+
+</android.support.v7.widget.LinearLayoutCompat>
